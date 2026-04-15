@@ -10,4 +10,4 @@ Este repositorio tiene como finalidad servir como base del trabajo integrador fi
 
 Se empezó con la actividad de la clase 02, la cual indica crear un documento sobre una noticia con HTML básico. Se avanzará con la actividad en la rama:  [clase02_14-04-2026](https://github.com/FrancoFelg/uai_daw/tree/clase02_14-04-2026)
 
-
+15/04/2026: Se realizó un PR de la rama de la clase02 con el objetivo de traer los cambios realizados en el index.html referidos a crear la estructura de un archivo HTML el cual contenga como contenido una noticia.
