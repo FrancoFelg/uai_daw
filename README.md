@@ -15,3 +15,5 @@ Se empezó con la actividad de la clase 02, la cual indica crear un documento so
 22/04/2026: Se realizó un PR de la rama de la clase03. La misma tiene dos objetivos: 
 1. Mejorar el SEO mediante etiquetas semánticas, por lo que se añadieron etiquetas como `<nav>`, `<section>`, `<article>`, `<aside>` entre otras.
 2. Uso de formularios, por lo que se implementó al final de la sección un formulario de suscripción (sin funcionalidad, solo visual)
+
+04/05/2026: Se añadió el documento `styles.css` con el objetivo de añadir estilos a la página principal.
