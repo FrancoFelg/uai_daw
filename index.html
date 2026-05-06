@@ -6,29 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Clase02 DAW</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header style="margin: 0;">
-    <div style="background-color: #b80000; padding: 5px; color: #fff; margin: 0 0 10px 0; ">
-      <p style="margin: 5px;"><strong>BBC</strong></p>
+  <header class="m-0">
+    <div class="bbc-logo-container">
+      <img src="public/images/BBClogo.svg" class="bbc-logo">
     </div>
 
-    <figure style="display: flex; justify-content: center; align-items: center;  width: 100%; margin: 0;">
-      <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/8f0f/live/9544d810-34e8-11f1-bce2-613d63bea84f.jpg.webp"
-        alt="Imagen de la Tierra vista desde la Luna" style="height: 200px;">
-    </figure>
+    <div class="news-header">
+      <p><strong>NEWS Mundo</strong></p>
 
-    <div style="display: flex; justify-content: space-between; align-items: center;  width: 100%; margin: 0;">
-      <p>Pallab Ghosh, Título del autor, Corresponsal de Ciencia de la BBC</p>
-      <p>12 abril 2026</p>
+      <ul class="news-header-list">
+        <li><a href="#">Noticias</a></li>
+        <li><a href="#">Video</a></li>
+        <li><a href="#">Audio</a></li>
+      </ul>
     </div>
+
+
   </header>
-  <main>
-    <h1>
-      La misión Artemis II fue un éxito, pero ahora viene lo más difícil: los
-      retos que enfrenta el programa espacial de la NASA
-    </h1>
+<div class="main-container">
+  <main class="main">
+    <div>
+      <h1>
+        La misión Artemis II fue un éxito, pero ahora viene lo más difícil: los
+        retos que enfrenta el programa espacial de la NASA
+      </h1>
+      <figure class="main-img">
+        <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/8f0f/live/9544d810-34e8-11f1-bce2-613d63bea84f.jpg.webp"
+          alt="Imagen de la Tierra vista desde la Luna">
+      </figure>
+      
+      <div>
+        <p>Pallab Ghosh, Título del autor, Corresponsal de Ciencia de la BBC</p>
+        <p>12 abril 2026</p>
+      </div>
+    </div>
+
 
     <h2>
       La misión Artemis II de la NASA ha logrado enviar a cuatro astronautas a
@@ -247,26 +263,11 @@
         difícil: los retos que enfrenta el programa espacial de la NASA</a>
     </p>
   </footer>
-</body>
-
-      <p>
-        Gerst le dijo al director de la ESA que desearía que los ocho mil
-        millones de personas de la Tierra pudieran ir al espacio aunque fuera
-        una sola vez y ver lo que él vio: un planeta pequeño, frágil y hermoso,
-        al que la especie que tiene la suerte de vivir en él no cuida lo
-        suficiente.
-      </p>
-
-      <p>
-        "Eso", dice Aschbacher, "crearía una vida muy diferente en el planeta
-        Tierra".
-      </p>
 </section>
-
 </article>
 
 <aside>
-      <h2>Más leídas</h2>
+  <h2>Más leídas</h2>
     <section class="mostReaded-container">
       <article class="mostReaded-article">
         <figure>
@@ -307,16 +308,20 @@
           entrevista en Teherán al excomandante de la Guardia Revolucionaria</p>
       </article>
     </section>
-    </aside>
-    </main>
+  </aside>
 
-    
-    
 
-    <section class="form-container">
+</main>  
+</div>
+
+<footer class="footer">
+   <div class="news-header">
+    <p><strong>NEWS Mundo</strong></p>
+  </div>
+  <section class="form-container">
       <h2>
         ¿Desea enterarse de más noticias?
-        <span style="color: #0bc734">Suscríbase</span>
+        <span class="subscribe-span">Suscríbase</span>
       </h2>
       <form id="form">
         <fieldset>
@@ -356,17 +361,6 @@
         <button type="submit">Enviar</button>
       </form>
     </section>
-
-    <footer>
-      <p>
-        Fuente:
-        <a
-          href="https://www.bbc.com/mundo/articles/ce35eynplj7o"
-          style="color: blue"
-          >BBC - La misión Artemis II fue un éxito, pero ahora viene lo más
-          difícil: los retos que enfrenta el programa espacial de la NASA</a
-        >
-      </p>
-    </footer>
+</footer>
   </body>
 </html>

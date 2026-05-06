@@ -1,10 +1,52 @@
+body{
+  font-family: 'Libre Baskerville', serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #0d45d5;
+}
+
+.m-0{
+  margin: 0
+}
+
+.bbc-logo-container{
+  margin: 20px 0 5px 230px;
+}
+
+.bbc-logo{
+  max-width: 100px;
+}
+
+.main-container{
+  padding: 40px 230px;
+  text-wrap: wrap;
+}
+
+.main-img {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+  margin: 20px 0;
+
+}
+
+.main-img > img {
+  height: 200px;
 }
 
 .nav-item {
@@ -13,29 +55,119 @@ a {
   margin: 0 5px;
 }
 
+/*mostReaded*/
 .mostReaded-container {
   display: flex;
 }
 
 .mostReaded-article {
-  display: flex;
-  align-items: center;
   width: calc(100% / 3);
   margin: 3px;
-  padding: 10px;
-  background-color: rgb(204, 204, 204);
 }
 
 .mostReaded-article img {
-  width: 100px;
+  width: 100%;
 }
 
 .mostReaded-article figure {
   margin: 0 10px 0 0;
 }
+/*mostReaded*/
 
 .form-container {
-  border: solid 1px black;
-  background-color: #f1f1f1;
   padding: 15px;
+  color: white
+}
+
+/*section: NEWS HEADER*/
+.news-header{
+  background-color: #b80000;
+  padding: 10px 0; 
+  color: #fff; 
+  margin: 0 0 10px 0;
+   
+}
+
+.news-header > * {
+  margin: 0 230px;
+}
+
+.news-header-list{
+  padding: 0;
+}
+
+.news-header-list > li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+
+.news-header-list > li > a {
+  color: white
+}
+
+.subscribe-span{
+  color: #b80000
+}
+
+
+/* /section: NEWS HEADER*/
+
+.footer{
+  margin: 0;
+  padding: 0;
+  background: rgb(34, 34, 34);
+}
+
+@media (max-width: 900px) {
+
+  .main{
+    margin: auto
+  }
+
+  .bbc-logo-container, .main-container, .news-header > * {
+    margin: 0 15px;
+  }
+
+  .news-header > * {
+    margin: 0 15px;
+  }
+
+  .mostReaded-article{
+    width: 100%;
+  }
+  
+  .bbc-logo-container{
+    margin: 20px 0 5px 15px;
+  }
+  .main-container{
+    padding: 40px 15px;
+  }
+  .main-container{
+    padding: 40px 15px;
+  }
+
+  .mostReaded-container{
+    display: inline;
+  }
+
+}
+
+@media (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  fieldset {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+  }
+
 }
