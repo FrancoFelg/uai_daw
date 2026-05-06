@@ -17,3 +17,5 @@ Se empezó con la actividad de la clase 02, la cual indica crear un documento so
 2. Uso de formularios, por lo que se implementó al final de la sección un formulario de suscripción (sin funcionalidad, solo visual)
 
 04/05/2026: Se añadió el documento `styles.css` con el objetivo de añadir estilos a la página principal.
+
+06/05/2026: Se realizaron cambios grandes en el archivo `styles.css` con el objetivo de mejorar el aspecto visual y la responsividad de la página en general. Se añadieron `media queries` para el manejo de responsividad en pantallas pequeñas tipo table o mobile.
