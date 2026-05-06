@@ -45,6 +45,10 @@ a {
 
 }
 
+.main-img > img {
+  height: 200px;
+}
+
 .nav-item {
   padding: 5px 15px;
   border: solid black 1px;
@@ -102,6 +106,10 @@ a {
   color: white
 }
 
+.subscribe-span{
+  color: #b80000
+}
+
 
 /* /section: NEWS HEADER*/
 
@@ -112,9 +120,6 @@ a {
 }
 
 @media (max-width: 900px) {
-  *{
-     color: red;
-  }
 
   .main{
     margin: auto
@@ -149,8 +154,20 @@ a {
 }
 
 @media (max-width: 600px) {
-  *{
-     color: blue;
+  * {
+    box-sizing: border-box;
+  }
+
+  fieldset {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
   }
 
 }
