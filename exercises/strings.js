@@ -65,6 +65,3 @@ firstWordOtherLetters.toLowerCase() +
 secondWordFirstLetter.toUpperCase() +
 secondWordOtherLetters.toLowerCase()
 console.log(texto11)
-
-
-
