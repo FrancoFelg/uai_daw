@@ -15,4 +15,4 @@ length).
 */
 var text4 = "Chau ";
 var text5 = " mundo";
-var totalLength = text1.length + text2.length;
+var totalLength = text4.length + text5.length;

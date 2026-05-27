@@ -66,7 +66,7 @@ function validateNumber(nro){
 }
 
 function suma4(nro1, nro2){
-    validateNumber()
-
+    validateNumber(nro1);
+    validateNumber(nro2);
     return nro1+nro2;
 }
